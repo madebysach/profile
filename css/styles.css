@@ -4,6 +4,7 @@ html {
    background-size: cover;
    background-repeat: no-repeat;
    background-position: center center;
+   background-color: #292b29;
 
 }
 
@@ -21,7 +22,7 @@ body {
   width: 450px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin: 0 auto;
-    opacity: 0.9;
+  opacity: 0.9;
 }
 
 .inside-splitter {
@@ -32,7 +33,7 @@ body {
 }
 
 .profile {
-  background-color: yellow;
+  background-color: white;
   height: 160px;
   width: 160px;
   border-radius: 100px;
@@ -100,9 +101,6 @@ hr {
 
 .footer
 {
-  position: absolute;
   color: white;
-  bottom: 0;
-  right: 0;
-  padding: 20px;
+  text-align: center;
 }
