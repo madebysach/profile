@@ -1,0 +1,108 @@
+html {
+   min-height: 100%;
+   background-image: url(BG.jpeg); /*replace image.jpg with path to your image*/
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center center;
+
+}
+
+body {
+  margin: 0;
+}
+
+.outer-container{
+  margin: 10% auto 0 auto;
+}
+
+.container {
+  background-color: white;
+  height: 600px;
+  width: 450px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 0 auto;
+    opacity: 0.9;
+}
+
+.inside-splitter {
+  background-color: #191D1F;
+  height: 200px;
+  width: 450px;
+  position: relative;
+}
+
+.profile {
+  background-color: yellow;
+  height: 160px;
+  width: 160px;
+  border-radius: 100px;
+  border-color: white;
+  border-style: solid;
+  border-width: 5px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  top: 100px;
+}
+
+.pro-img {
+  width: 100%;
+}
+
+.text-box {
+  background-color: white;
+  display: inline-block;
+  height: 200px;
+  width: 100%;
+  text-align: center;
+  padding-top: 80px;
+  color: #394b54;
+}
+
+h1 {
+  font-family: 'Major Mono Display', monospace;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+  border: dotted grey 2px;
+  border-bottom: none;
+  width: 55%;
+  margin: 0 auto 30px;
+  color: #a2c4ca;
+}
+
+.icon-container {
+  text-align: center;
+}
+
+.icon-imgs {
+  width: 8%;
+  margin: auto 10px;
+}
+
+:hover.icon-imgs{
+  opacity: 0.5;
+}
+
+.location-icon {
+  width: 5%;
+  padding-top: 20px;
+}
+
+.location-text {
+  display: inline-block;
+  font-weight: bolder;
+}
+
+.footer
+{
+  position: absolute;
+  color: white;
+  bottom: 0;
+  right: 0;
+  padding: 20px;
+}
