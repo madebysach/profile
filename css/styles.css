@@ -18,8 +18,8 @@ body {
 
 .container {
   background-color: white;
-  height: 600px;
-  width: 450px;
+  height: 550px;
+  width: 400px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin: 0 auto;
   opacity: 0.9;
@@ -27,8 +27,8 @@ body {
 
 .inside-splitter {
   background-color: #191D1F;
-  height: 200px;
-  width: 450px;
+  height: 150px;
+  width: 400px;
   position: relative;
 }
 
@@ -43,7 +43,7 @@ body {
   position: relative;
   margin-left: auto;
   margin-right: auto;
-  top: 100px;
+  top: 50px;
 }
 
 .pro-img {
