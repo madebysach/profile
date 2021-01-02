@@ -1,3 +1,9 @@
+/* TAG SELECTORS */
+
+body {
+  margin: 0;
+}
+
 html {
    min-height: 100%;
    background-image: url(BG.jpeg); /*replace image.jpg with path to your image*/
@@ -8,13 +14,24 @@ html {
 
 }
 
-body {
-  margin: 0;
+h1 {
+  font-family: 'Major Mono Display', monospace;
 }
 
-.outer-container{
-  margin: 10% auto 0 auto;
+p {
+  font-family: 'Montserrat', sans-serif;
 }
+
+hr {
+  border: dotted grey 2px;
+  border-bottom: none;
+  width: 55%;
+  margin: 0 auto 30px;
+  color: #a2c4ca;
+}
+
+/* CLASS SELECTORS */
+
 
 .container {
   background-color: white;
@@ -30,6 +47,10 @@ body {
   height: 150px;
   width: 400px;
   position: relative;
+}
+
+.outer-container{
+  margin: 10% auto 0 auto;
 }
 
 .profile {
@@ -60,21 +81,7 @@ body {
   color: #394b54;
 }
 
-h1 {
-  font-family: 'Major Mono Display', monospace;
-}
 
-p {
-  font-family: 'Montserrat', sans-serif;
-}
-
-hr {
-  border: dotted grey 2px;
-  border-bottom: none;
-  width: 55%;
-  margin: 0 auto 30px;
-  color: #a2c4ca;
-}
 
 .icon-container {
   text-align: center;
